@@ -1,0 +1,174 @@
+.bgimg {
+  background-image: url("./Assets/home-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+}
+.inp:focus {
+  box-shadow: 0 0 0.6em #66afe9;
+  border: none !important;
+}
+p {
+  font-size: 13px;
+}
+.about {
+  background-image: url("./Assets/about-header.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  margin-top: -45px !important;
+}
+.contact {
+  background-image: url("./Assets/contact-header.jpg");
+  width: 100%;
+  height: 520px;
+  background-size: cover;
+  margin-top: -2.5%;
+  background-position: center;
+}
+
+.portfolio {
+  background-image: url("./Assets/portfolio-header.jpg");
+  width: 100%;
+  min-height: 520px;
+  background-size: cover;
+  background-position: center;
+  margin-top: -2.5%;
+  margin-bottom: 8%;
+}
+.img2 {
+  background-image: url("./Assets/about-header.jpg");
+  width: 100%;
+  height: 68.5vh;
+  padding: 0;
+  margin: 0 !important;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 320px) {
+  .portfolio {
+    width: 100%;
+    height: 520px;
+    margin-top: -35px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .portfolio {
+    width: 100%;
+    height: 520px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .portfolio {
+    width: 100%;
+    height: 520px;
+    margin-top: -35px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .portfolio {
+    width: 100%;
+    height: 520px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .portfolio {
+    width: 100%;
+    height: 520px;
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bgimg {
+    width: 100% !important;
+    height: 500px !important;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact {
+    width: 100% !important;
+    height: 500px !important;
+    overflow: hidden;
+    margin-top: -35px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .contact {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -40px !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .contact {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -40px !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .contact {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -40px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -40px !important;
+  }
+}
+@media screen and (max-width: 376px) {
+  .bgimg {
+    width: 100% !important;
+    height: 500px !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .bgimg {
+    width: 100% !important;
+    height: 500px !important;
+  }
+}
+@media screen and (max-width: 321px) {
+  .about {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-top: -35px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .twocard {
+    width: 90%;
+    height: 533.33px;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bgimg {
+    width: 100% !important;
+    height: 500px !important;
+  }
+}
+
+.active {
+  background: #333333;
+  padding: 26px;
+}
+#active {
+  background: #333333;
+  padding: 26px;
+}
