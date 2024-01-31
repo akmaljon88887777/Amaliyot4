@@ -16,10 +16,10 @@ function About() {
         </p>
         <br />
       </div>
-      <div className="lg:flex md:mx-10 md:gap-16 lg:m-0 md:m-0 -ml-16 justify-center px-2 grid gap-10 md:grid md:grid-cols-3 md:justify-items-center">
+      <div className="lg:flex md:mx-10 md:gap-16 lg:m-0 md:m-0 425:-ml-24 -ml-2 justify-center px-2 grid gap-10 md:grid md:grid-cols-3 md:justify-items-center">
         <div
           style={{ border: "2px solid #303030" }}
-          className="lg:w-[303.33px] lg:h-[469px] h-[400px] w-[220px] p-5"
+          className="lg:w-[303.33px] lg:h-[469px] md:h-[400px] w-[289px] h-[455px] md:w-[220px] p-5"
         >
           <img src={Rasm} alt="" />
           <p
@@ -39,7 +39,7 @@ function About() {
         </div>
         <div
           style={{ border: "2px solid #303030" }}
-          className="lg:w-[303.33px] md:h-[380px] lg:h-[469px] h-[400px] w-[220px] p-5"
+          className="lg:w-[303.33px] md:h-[380px] lg:h-[469px] md:h-[400px] w-[289px] h-[455px] md:w-[220px] p-5"
         >
           <img src={Rasm1} alt="" />
           <p
@@ -59,7 +59,7 @@ function About() {
         </div>
         <div
           style={{ border: "2px solid #303030" }}
-          className="lg:w-[303.33px] lg:h-[469px] h-[400px] w-[220px] p-5 "
+          className="lg:w-[303.33px] lg:h-[469px] md:h-[400px] w-[289px] h-[455px] md:w-[220px] p-5 "
         >
           <img src={Rasm2} alt="" />
           <p

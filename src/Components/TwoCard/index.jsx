@@ -3,16 +3,16 @@ import "../../App.css";
 import Rasm from "../../Assets/about-img.jpg";
 function TwoCard() {
   return (
-    <div className="flex md:mx-5 mt-10">
-      <div className="flex flex-col lg:flex-row xl:px-[265px]">
-        <div className=" md:w-[730px] lg:w-full xl:w-full lg:h-[333px] ">
+    <div className="flex md:mx-5 mt-10  md:m-0 md:overflow-hidden overflow-hidden xl:mx-0">
+      <div className="flex flex-col lg:flex-row xl:px-[265px] md:px-0 ">
+        <div className="lg:w-[100%] md:w-full lg:h-[333px] ">
           <img
-            className="lg:w-full lg:h-[333px] w-full h-[200px] md:h-[460px] xl:w-full"
+            className="lg:w-full lg:h-[333px] w-full h-[200px] md:w-[725px] md:h-[460px] xl:w-full"
             src={Rasm}
             alt=""
           />
         </div>
-        <div className="w-full bg-[#191919] md:w-[730px] lg:w-full xl:w-full lg:h-[333px] md:mt-0 lg:pt-8 p-7">
+        <div className="w-full bg-[#191919] md:w-full lg:w-full xl:w-[100%] xl:h-[333.33px] lg:h-[333px] md:mt-0 lg:pt-8 p-7">
           <h2 className="text-[30px] font-bold text-white">Startup Business</h2>
           <p className="text-[#808080]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed <br />
@@ -28,7 +28,7 @@ function TwoCard() {
           <br />
           <button
             style={{ border: "2.5px solid", marginTop: "8px" }}
-            className="w-[131.14px] h-[45.76px] font-medium text-white text-[14px] hover:bg-[#009988] hover:text-black hover:duration-1000 hover:border-[#009988]"
+            className="w-[131.14px] h-[45.76px] hover:w-[131.14px] hover:h-[45.76px] hover:m-0 hover:p-0 font-medium text-white text-[14px] hover:bg-[#009988] hover:text-black hover:duration-1000 hover:border-none"
           >
             LEARN MORE
           </button>

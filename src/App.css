@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 60vh;
+  height: 500px;
 }
 .inp:focus {
   box-shadow: 0 0 0.6em #66afe9;
@@ -11,6 +11,9 @@
 }
 p {
   font-size: 13px;
+}
+.icon:hover {
+  color: white !important;
 }
 .about {
   background-image: url("./Assets/about-header.jpg");

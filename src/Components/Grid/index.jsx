@@ -22,7 +22,7 @@ function Grid() {
   };
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-2 cursor-pointer lg:grid-cols-3 w-[100%] lg:w-[70%] m-auto bg-slate-400 gap-0">
+      <div className="grid grid-cols-2 md:grid-cols-2  cursor-pointer lg:grid-cols-3 w-[100%] lg:w-[70%] m-auto bg-slate-400 gap-0">
         {arrOfImages.map((image, ind) => {
           if (ind < 3) {
             return (

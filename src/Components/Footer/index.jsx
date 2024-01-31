@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="">
       <footer className="flex justify-center w-full bg-[#1C1C1C]">
         <div className="w-[100%] md:mx-10 py-16 grid lg:w-full justify-between grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-items-start p-3 gap-8 lg:px-[100px] xl:px-[275px]">
-          <div className="xl:-ml-12">
+          <div className="xl:-ml-12 md:-mt-10">
             <div>
               <img src={Rasm} alt="" />
             </div>
@@ -82,24 +82,24 @@ const Footer = () => {
           Copyright © 2084 Company Name
         </p>
         <br />
-        <div className="gap-1 lg:flex lg:ml-16 lg:mb-4 grid md:flex sm:flex grid-cols-5 lg:m-0 mx-4 justify-items-start ml-0">
+        <div className="gap-1 lg:flex lg:ml-16 xl:mr-48 lg:mb-4 grid md:flex sm:flex grid-cols-5 lg:m-0 mx-4 justify-items-start ml-0">
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <CgFacebook size={22} color="#808080" />
+            <CgFacebook size={22} color="#808080" className="icon" />
           </div>
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <AiOutlineTwitter size={22} color="#808080" />
+            <AiOutlineTwitter size={22} color="#808080" className="icon" />
           </div>
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <AiOutlineDribbble size={22} color="#808080" />
+            <AiOutlineDribbble size={22} color="#808080" className="icon" />
           </div>
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <BsPinterest size={22} color="#808080" />
+            <BsPinterest size={22} color="#808080" className="icon" />
           </div>
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <AiOutlineBehance size={22} color="#808080" />
+            <AiOutlineBehance size={22} color="#808080" className="icon" />
           </div>
           <div className="w-[47.44px] h-[40px] bg-[#303030] flex items-center justify-center hover:bg-[#D54AB6] hover:cursor-pointer hover:text-white">
-            <CgMail size={22} color="#808080" />
+            <CgMail size={22} color="#808080" className="icon" />
           </div>
         </div>
         <br />

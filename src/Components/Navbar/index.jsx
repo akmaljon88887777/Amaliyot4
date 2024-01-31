@@ -15,7 +15,7 @@ function Navbars() {
       style={{ borderLeft: "6px solid #D54AB6", zIndex: "1" }}
       className="flex w-full bg-[#202020] justify-between lg:w-full lg:pb-0 pb-4 md:pb-0 items-center md:mx-5 xl:mx-[275px] mx-4 my-5 px-5 lg:pr-10 text-[13px]"
     >
-      <div className="navbar w-full flex justify-between items-center lg:ml-0 xl:ml-0 md:ml-0 -ml-1 h-[70px]  text-white">
+      <div className="navbar w-full flex justify-between items-center lg:ml-0 xl:ml-0 md:ml-0 -ml-1 h-[70px] gap-0 text-white">
         <h4 className="text-[32px]  font-normal ">
           <Link
             className="flex items-center sm:flex  hover:text-[#F1C111]"
